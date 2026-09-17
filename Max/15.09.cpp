@@ -64,8 +64,3 @@ int task1()
 	}
 	else {std::cout << "Ошибко";}
 }
-//мямямямямямямямя
-//dsadsadsad
-//кукусики
-
-fewfds;ыфвфыв
