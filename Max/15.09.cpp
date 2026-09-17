@@ -67,3 +67,5 @@ int task1()
 //мямямямямямямямя
 //dsadsadsad
 //кукусики
+
+fewfds;
