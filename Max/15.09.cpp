@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <Windows.h>
 int task1()
 {
@@ -63,4 +63,4 @@ int task1()
 		std::cout << "\n3." << (exp * (dist / 100)) * gas_price_3;
 	}
 	else {std::cout << "Ошибко";}
-}
+}*/
