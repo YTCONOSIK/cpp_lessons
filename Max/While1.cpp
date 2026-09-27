@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <Windows.h>
 int main() {
 	SetConsoleOutputCP(CP_UTF8);
@@ -33,4 +33,4 @@ int main() {
 		else { std::cout << "Ты как тут оказался!?"; }
 	}
 	else { std::cout << "Ошибко, введите 1 или 2"; }
-}
+}*/

@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="15.09.cpp" />
+    <ClCompile Include="18.09hmw.cpp" />
     <ClCompile Include="test.cpp" />
     <ClCompile Include="While1.cpp" />
   </ItemGroup>
