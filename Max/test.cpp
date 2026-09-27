@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <Windows.h>
 int cow()
 {
@@ -13,4 +13,4 @@ int cow()
 	std::cout << "			||----W |\n ";
 	std::cout << "			||     ||\n ";
 	return 1;
-}
+}*/
