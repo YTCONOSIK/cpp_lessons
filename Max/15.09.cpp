@@ -1,6 +1,6 @@
 /*#include <iostream>
 #include <Windows.h>
-int task1()
+int main()
 {
 	SetConsoleOutputCP(CP_UTF8);
 	SetConsoleCP(CP_UTF8);

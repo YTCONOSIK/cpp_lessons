@@ -139,8 +139,6 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="15.09.cpp" />
-    <ClCompile Include="18.09hmw.cpp" />
     <ClCompile Include="2909.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
