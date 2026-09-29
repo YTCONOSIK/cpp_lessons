@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <Windows.h>
 #include <string>
 
@@ -65,4 +65,4 @@ int main() {
 // 123 / 100 = 2
 // s2 = 2
 // cout << s2 << s1
-1234 / 10 = 
+1234 / 10 = */

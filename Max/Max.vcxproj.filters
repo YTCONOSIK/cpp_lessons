@@ -15,16 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="15.09.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="While1.cpp">
+    <ClCompile Include="18.09hmw.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="18.09hmw.cpp">
+    <ClCompile Include="2909.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
