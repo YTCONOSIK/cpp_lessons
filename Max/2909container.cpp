@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <Windows.h>
 int main()
 {
@@ -26,7 +26,7 @@ int main()
 		std::cout << "||" << sum << "\n";
 		sum = 0;
 	}
-	
+	*/
 
 	// Cумма чисел в строке
 /*	for (size_t i = 0; i < row; i++)
@@ -38,7 +38,7 @@ int main()
 		std::cout << std::endl;
 	}*/
 	//вывод ^^^
-}
+//}
 /*	
 }
 /*
