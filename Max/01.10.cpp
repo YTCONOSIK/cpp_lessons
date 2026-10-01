@@ -37,7 +37,15 @@ double divide(double f, double s) {
 	r = f / s;
 	return r;
 }
-
+double MyPow(double f, double s) {
+	double total = 0;
+	for (size_t i = 1; i < s; i++)
+	{
+		double total = 0;
+		total =total + f * f;
+	}
+	return(total);
+}
 int main()
 {
 	SetConsoleCP(CP_UTF8);
@@ -48,9 +56,9 @@ int main()
 	double f = 0;
 	double s = 0;
 	double r = 0;
-	std::cout << "Введите действие: * | + | - | / \n";
+	std::cout << "Введите действие: * | + | - | / | ^\n";
 	std::cin >> d;
-	if (d == '*' || d == '/' || d == '+' || d == '-') {
+	if (d == '*' || d == '/' || d == '+' || d == '-' || d == '^') {
 		std::cout << "Выбрано" << "(" << d << ")" << "\n Введите первое число:";
 		std::cin >> f;
 		std::cout << "Первое число:" << f << "\n Введите второе число: \n";
@@ -69,11 +77,14 @@ int main()
 		else if (d == '-') {
 			std::cout << "Итог:" << Minus(f,s);
 		}
+		else if (d == '^') {
+			std::cout << MyPow(f, s);
+		}
 		else {
 			std::cout << "Ты что понаписал?";
 		}
 		return 0;
-
+		std::pow(3, 5);
 	}
 	else
 	{
