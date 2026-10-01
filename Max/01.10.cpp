@@ -7,7 +7,34 @@
 	}
 */
 
-void PrintHello() {
+
+void PrintArr(int name[], int length)
+{
+	for (size_t i = 0; i < length; i++)
+	{
+		std::cout << name[i] << " ";
+	}
+}
+void RandArr(int name[], int length)
+{
+	for (size_t i = 0; i < length; i++)
+	{
+		name[i] = rand() % 100;
+	}
+}
+
+int main()
+{
+	SetConsoleCP(CP_UTF8);
+	SetConsoleOutputCP(CP_UTF8);
+	srand(time(NULL));
+	const int size = 10;
+	int arr[size]{};
+	RandArr(arr, size);
+	PrintArr(arr,size);
+	
+}
+/*void PrintHello() {
 	std::cout << "Hello\n";
 }
 
@@ -45,14 +72,8 @@ double MyPow(double f, double s) {
 		total =total + f * f;
 	}
 	return(total);
-}
-int main()
-{
-	SetConsoleCP(CP_UTF8);
-	SetConsoleOutputCP(CP_UTF8);
-	srand(time(NULL));
-
-	char d = ' ';
+}*/
+/*char d = ' ';
 	double f = 0;
 	double s = 0;
 	double r = 0;
@@ -91,8 +112,4 @@ int main()
 		std::cout << "Ты что понаписал?";
 		std::cerr << "\n Logging";
 		std::clog;
-	}
-
-
-
-}
+	}*/
