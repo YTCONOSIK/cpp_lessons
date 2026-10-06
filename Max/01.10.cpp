@@ -1,5 +1,5 @@
-#include <iostream>
-#include <Windows.h>
+/*#include <iostream>
+#include <Windows.h>*/
 /*
 	Тип_возврата Имя_функции (аргументы_функции, ...)
 	{
@@ -8,7 +8,7 @@
 */
 
 
-void PrintArr(int name[], int length)
+/*void PrintArr(int name[], int length)
 {
 	for (size_t i = 0; i < length; i++)
 	{
@@ -33,7 +33,7 @@ int main()
 	RandArr(arr, size);
 	PrintArr(arr,size);
 	
-}
+}*/
 /*void PrintHello() {
 	std::cout << "Hello\n";
 }
