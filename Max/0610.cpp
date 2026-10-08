@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <Windows.h>
 void FillArr(int name[], int length);
 void FillArr(double name[], int length);
@@ -112,8 +112,10 @@ int main()
 	std::cout << std::endl;
 	char A = 'Я';
 	std::cout << A;
-	std::cout << (int)A;*/
+	std::cout << (int)A;
 }
+	
+	*/
 /*
 10 / 5 
 5 + 5 = 10
