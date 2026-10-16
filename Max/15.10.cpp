@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <Windows.h>
 #include <string>
 
@@ -42,4 +42,4 @@ int main() {
 	delete car;
 	car = nullptr;
 
-}
+}*/
