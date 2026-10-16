@@ -248,7 +248,7 @@ void tea_cat(){
 		}
 	}
 }
-int main()
+/*int main()
 {
 	SetConsoleCP(CP_UTF8);
 	SetConsoleOutputCP(CP_UTF8);
@@ -258,7 +258,7 @@ int main()
 	
 	std::cout << "\n";
 	system("pause");
-}
+}*/
 /*
 
 цикл меню, выбор категорий сока в нем
