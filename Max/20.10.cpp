@@ -56,20 +56,19 @@ void DeleteArr(int*& ptr) {
 	delete[] ptr;
 	ptr = nullptr;
 }
-int main()
+/*int main()
 {
 	SetConsoleCP(CP_UTF8);
 	SetConsoleOutputCP(CP_UTF8);
 	srand(time(NULL));
-	/*
 	int size=0;
 	std::cin >> size;
 	int* arr = new int[size];
 	arr[0] = 10;
 	delete[] arr;
-	arr = nullptr;*/
+	arr = nullptr;
 
-	/*int row = 3, col = 4;
+	int row = 3, col = 4;
 	int** ptr1 = new int* [row];
 	for (int i = 0; i < row; i++) {
 		ptr1[i] = new int[col];
@@ -79,9 +78,9 @@ int main()
 	{
 		delete[] ptr1[i];
 	}
-	delete[] ptr1;*/
+	delete[] ptr1;
 	
-	/*int side = 2, row = 4, col1 = 4, col2 = 3;
+	int side = 2, row = 4, col1 = 4, col2 = 3;
 	int*** seva = new int**[side];
 	for (size_t i = 0; i < side; i++)
 	{
@@ -106,11 +105,11 @@ int main()
 		}
 		delete[] seva[i];
 	}
-	delete[] seva;*/
+	delete[] seva;
 
 	int size = 5;
 	int* ptr = nullptr;
-	/*int* arr = new int[size] {5, 3, 7, 5, 4};
+	int* arr = new int[size] {5, 3, 7, 5, 4};
 	for (size_t i = 0; i < size; i++)
 	{
 		std::cout << arr[i] << " ";
@@ -121,8 +120,8 @@ int main()
 	{
 		std::cout << arr[i];
 	}
-	delete[] arr;*/
+	delete[] arr;
 
 	std::cout << "\n\n" << "Конец работы программы!!!!!!!!";
 
-}
+}*/

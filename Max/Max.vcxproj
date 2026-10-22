@@ -144,6 +144,7 @@
     <ClCompile Include="08.10.cpp" />
     <ClCompile Include="15.10.cpp" />
     <ClCompile Include="20.10.cpp" />
+    <ClCompile Include="22.10.cpp" />
     <ClCompile Include="2909container.cpp" />
     <ClCompile Include="BlackJack.cpp" />
   </ItemGroup>
